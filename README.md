@@ -1,3 +1,3 @@
 # Solato-Excel
 A Star System Generator for Excel &amp; Python
-![BannerImage](https://raw.githubusercontent.com/ErisuKuraku/Py-Retsuko/master/Github%20Social.png)
+![BannerImage](https://github.com/ErisuKuraku/Solato-Excel/blob/main/Solato%20Excel%20Banner.png?raw=true)

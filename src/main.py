@@ -12,7 +12,7 @@ turtle = Turtle()
 turtle.setheading(90)
 
 
-def drawplanet(t,p):
+def drawPlanet(t,p):
     t.forward(p[1] * distanceScale)
     t.pendown()
     t.circle(p[2])
@@ -24,7 +24,7 @@ def drawplanet(t,p):
 def draw():
     turtle.clear()
     for planet in planets:
-        drawplanet(turtle, planet)
+        drawPlanet(turtle, planet)
     screen.update()
     turtle.left(1)
     screen.ontimer(draw, 200)

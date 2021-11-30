@@ -5,6 +5,8 @@ planetTwo = [2, 0.5, 30]
 planets = [planetOne, planetTwo]
 distanceScale = 200
 
+' ^^ Placeholder values, waiting for CSV template ^^ '
+
 
 screen = Screen()
 screen.tracer(0)

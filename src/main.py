@@ -15,11 +15,14 @@ turtle.setheading(90)
 
 
 def drawPlanet(t,p):
+    t.fillcolor("black")
     t.forward(p[1] * distanceScale)
+    t.begin_fill()
     t.pendown()
     t.circle(p[2])
     t.penup()
     t.goto(0, 0)
+    t.end_fill()
 
 
 

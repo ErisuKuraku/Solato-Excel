@@ -1,3 +1,4 @@
+import json
 from turtle import *
 
 planetOne=[1, 1, 10]
@@ -5,7 +6,7 @@ planetTwo = [2, 0.5, 30]
 planets = [planetOne, planetTwo]
 distanceScale = 200
 
-' ^^ Placeholder values, waiting for CSV template ^^ '
+' ^^ Placeholder values, waiting for JSON template ^^ '
 
 
 screen = Screen()

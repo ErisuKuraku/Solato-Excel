@@ -4,7 +4,8 @@ from turtle import *
 planetOne = [1, 1, 10, "red"]
 planetTwo = [2, 0.5, 30, "blue"]
 planetThree = [3, 2, 25, "lime"]
-planets = [planetOne, planetTwo, planetThree]
+planetFour = [4, 1.2, 10, "gray"]
+planets = [planetOne, planetTwo, planetThree, planetFour]
 
 ' ^^ Placeholder values, waiting for JSON template ^^ '
 

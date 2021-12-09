@@ -10,7 +10,6 @@ distanceScale = 200
 
 ' ^^ Placeholder values, waiting for JSON template ^^ '
 
-
 screen = Screen()
 screen.tracer(0)
 turtle = Turtle()
@@ -31,8 +30,10 @@ def drawPlanet(t,p,c):
 
 def draw():
     turtle.clear()
-    for planet in planets:
-        drawPlanet(turtle, planet, colour)
+    i = 0
+    while i < planetLength:
+        drawPlanet(turtle, planets[i], colour)
+        i += 1
     screen.update()
     turtle.left(1)
     screen.ontimer(draw, 200)

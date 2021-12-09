@@ -1,9 +1,11 @@
 import json
 from turtle import *
 
-planetOne=[1, 1, 10]
+planetOne = [1, 1, 10]
 planetTwo = [2, 0.5, 30]
 planets = [planetOne, planetTwo]
+colour = "yellow"
+planetLength = len(planets)
 distanceScale = 200
 
 ' ^^ Placeholder values, waiting for JSON template ^^ '
@@ -15,8 +17,8 @@ turtle = Turtle()
 turtle.setheading(90)
 
 
-def drawPlanet(t,p):
-    t.fillcolor("black")
+def drawPlanet(t,p,c):
+    t.fillcolor(c)
     t.forward(p[1] * distanceScale)
     t.begin_fill()
     t.pendown()
@@ -30,7 +32,7 @@ def drawPlanet(t,p):
 def draw():
     turtle.clear()
     for planet in planets:
-        drawPlanet(turtle, planet)
+        drawPlanet(turtle, planet, colour)
     screen.update()
     turtle.left(1)
     screen.ontimer(draw, 200)

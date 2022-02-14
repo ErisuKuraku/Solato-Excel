@@ -15,7 +15,7 @@ For now, the Excel portion will be not uploaded here until the alpha phase is co
 ## Development Notes
 
 1. You will soon need access to excel to generate the planets randomly.
-   - You cannot use excel online or later versions of excel (past 2021)
+   - You cannot use excel online or other office suites (like LibreOffice Calc)
    - You need marcros enabled (excel will prompt this on first open)
 
 2. While only exes are provided on release, you can build the aplha to work on other OSes that python supports

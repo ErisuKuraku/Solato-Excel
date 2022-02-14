@@ -5,7 +5,9 @@ planetOne = [1, 1, 10, "red"]
 planetTwo = [2, 0.5, 30, "blue"]
 planetThree = [3, 2, 25, "lime"]
 planetFour = [4, 1.2, 10, "gray"]
-planets = [planetOne, planetTwo, planetThree, planetFour]
+planetFive = [4, 2.5, 10, "yellow"]
+planetSix = [4, 2.2, 10, "purple"]
+planets = [planetOne, planetTwo, planetThree, planetFour, planetFive, planetSix]
 
 ' ^^ Placeholder values, waiting for JSON template ^^ '
 

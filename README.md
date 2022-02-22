@@ -23,3 +23,7 @@ For now, the Excel portion will be not uploaded here until the alpha phase is co
 
 3. There wont be an attachment to the excel worksheet while development is still going on. Version history is harder to pull off using the inbuilt VBA.
     - Nothing Excel related wont be uploaded until the python program starts to pull from such program
+
+## Special Thanks!
+
+Special thanks to [VBA-tools](https://github.com/VBA-tools/VBA-JSON) for their great module to Excel VBA. Without it we woudn't be able to convert Excel sheets to JSON 👍

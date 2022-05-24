@@ -1,10 +1,16 @@
 import json
-with open('src\solato_export.json') as json_file:
+with open('solato_export.json') as json_file:
     planets = json.load(json_file)
     print("debug mode")
     print(planets)
 
     print(type(planets))
+    print(type(planets[0]))
+
+for planet in planets:
+    print(planet['type'])
+
+    print(planet['size'], planet['radius'], planet['colour'])
     
 # from turtle import *
 
@@ -17,8 +23,10 @@ with open('src\solato_export.json') as json_file:
 # turtle.setheading(90)
 
 
+#def function(distance, radius, colour)
+
 # def drawPlanet(t,p):
-#     t.fillcolor(p[3])
+#     t.fillcolor(p)
 #     t.forward(p[1] * distanceScale)
 #     t.begin_fill()
 #     t.pendown()

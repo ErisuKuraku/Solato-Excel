@@ -4,7 +4,7 @@
       "name": "Haxsknfseth",
       "type": "Machine",
       "radius": 1.9,
-      "size": 0.5
+      "size": 3
    },
    {
       "colour": "#0024E0",
@@ -18,21 +18,21 @@
       "name": "Aagsndlzag",
       "type": "Desert",
       "radius": 2,
-      "size": 0.3
+      "size": 5.7
    },
    {
       "colour": "#FCD500",
       "name": "Haxsamogusgusgus",
       "type": "Desert",
       "radius": 1.7,
-      "size": 0.9
+      "size": 1.9
    },
    {
       "colour": "#E600ED",
       "name": "Haxsndlcal",
       "type": "Infested",
       "radius": 0.9,
-      "size": 0.9
+      "size": 1.9
    },
    {
       "colour": "#00ED00",

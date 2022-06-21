@@ -1,44 +1,44 @@
 [
    {
-      "colour": "#C8C8C8",
-      "name": "Haxsknfseth",
-      "type": "Machine",
-      "radius": 1.9,
+      "colour": "#00AF00",
+      "name": "Haxszandfax",
+      "type": "Jungle",
+      "radius": 0.6,
+      "size": 0.1
+   },
+   {
+      "colour": "#D6D100",
+      "name": "Leleulldxed",
+      "type": "Desert",
+      "radius": 0.3,
+      "size": 0.6
+   },
+   {
+      "colour": "#00AF00",
+      "name": "Haxsbilldaxx",
+      "type": "Jungle",
+      "radius": 0.1,
       "size": 0.5
    },
    {
-      "colour": "#0024E0",
-      "name": "HPL Eknfsdaxx",
+      "colour": "#0013FE",
+      "name": "Bruhbilleth",
       "type": "Water",
-      "radius": 0.7,
-      "size": 1.6
+      "radius": 1.8,
+      "size": 1.7
    },
    {
-      "colour": "#FCD500",
-      "name": "Aagsndlzag",
-      "type": "Desert",
-      "radius": 2,
-      "size": 0.3
-   },
-   {
-      "colour": "#FCD500",
-      "name": "Haxsamogusgusgus",
-      "type": "Desert",
-      "radius": 1.7,
-      "size": 0.9
-   },
-   {
-      "colour": "#E600ED",
-      "name": "Haxsndlcal",
-      "type": "Infested",
-      "radius": 0.9,
-      "size": 0.9
-   },
-   {
-      "colour": "#00ED00",
-      "name": "Bruhbillzag",
+      "colour": "#00AF00",
+      "name": "Aagsbilldaxx",
       "type": "Jungle",
-      "radius": 1.1,
-      "size": 2
+      "radius": 1.4,
+      "size": 0.1
+   },
+   {
+      "colour": "#C8C8C8",
+      "name": "Haxslaaxgusgus",
+      "type": "Machine",
+      "radius": 1.8,
+      "size": 0.3
    }
 ]

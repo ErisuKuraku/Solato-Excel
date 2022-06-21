@@ -1,17 +1,21 @@
 import json
 from turtle import *
 
-planetOne = [1, 1, 10, "red"]
-planetTwo = [2, 0.5, 30, "blue"]
-planetThree = [3, 2, 25, "lime"]
-planetFour = [4, 1.2, 10, "gray"]
-planetFive = [4, 2.5, 10, "yellow"]
-planetSix = [4, 2.2, 10, "purple"]
-planets = [planetOne, planetTwo, planetThree, planetFour, planetFive, planetSix]
+with open('solato_export.json') as json_file:
+    planets = json.load(json_file)
+    print("debug mode")
+    print(planets)
 
-' ^^ Placeholder values, waiting for JSON template ^^ '
+    print(type(planets))
+    print(type(planets[0]))
 
-planetLength = len(planets)
+for planet in planets:
+    print(planet['type'])
+
+    print(planet['size'], planet['radius'], planet['colour'])
+
+
+
 distanceScale = 200
 
 screen = Screen()
@@ -19,13 +23,12 @@ screen.tracer(0)
 turtle = Turtle()
 turtle.setheading(90)
 
-
 def drawPlanet(t,p):
-    t.fillcolor(p[3])
-    t.forward(p[1] * distanceScale)
+    t.fillcolor(p['colour'])
+    t.forward(p['radius'] * distanceScale)
     t.begin_fill()
     t.pendown()
-    t.circle(p[2])
+    t.circle(p['size'])
     t.penup()
     t.goto(0, 0)
     t.end_fill()
@@ -34,14 +37,13 @@ def drawPlanet(t,p):
 
 def draw():
     turtle.clear()
-    i = 0
-    while i < planetLength:
+    i = 0 
+    while i < 6:
         drawPlanet(turtle, planets[i])
-        i += 1
-    screen.update()
-    turtle.left(1)
+        i=i+1
+        screen.update()
+        turtle.left(1)
     screen.ontimer(draw, 200)
 
 draw()
 
-screen.mainloop()

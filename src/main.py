@@ -25,10 +25,10 @@ turtle.setheading(90)
 
 def drawPlanet(t,p):
     t.fillcolor(p['colour'])
-    t.forward(p['size'] * distanceScale)
+    t.forward(p['radius'] * distanceScale)
     t.begin_fill()
     t.pendown()
-    t.circle(p['radius'])
+    t.circle(p['size'])
     t.penup()
     t.goto(0, 0)
     t.end_fill()
@@ -38,13 +38,12 @@ def drawPlanet(t,p):
 def draw():
     turtle.clear()
     i = 0 
-    while i < len(planets):
+    while i < 6:
         drawPlanet(turtle, planets[i])
-        i += 1
+        i=i+1
         screen.update()
         turtle.left(1)
-        screen.ontimer(draw, 200)
+    screen.ontimer(draw, 200)
 
 draw()
 
-screen.mainloop()

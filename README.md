@@ -3,6 +3,8 @@ A Star System Generator for Excel &amp; Python
 
 ![BannerImage](https://github.com/ErisuKuraku/Solato-Excel/blob/main/Solato%20Excel%20Banner.png?raw=true)
 
+This was built for our integration project for college (Level 3 BTEC Infomation Technology)
+
 ## System Requirements
 
 - You need a Windows PC
@@ -15,7 +17,6 @@ A Star System Generator for Excel &amp; Python
    - You need marcos enabled (excel will prompt this on first open)
 
 2. While only exes are provided on release, you can build the alpha to work on other OSes that python supports
-    - We would like to add MacOS support but don't have Mac machines to test or build. Contribution would be helpful in this matter [Email Here](mailto:github@bakugo.me) or open an pull request with an added folder 'mac' with the binaries
 
 
 ## Special Thanks!
